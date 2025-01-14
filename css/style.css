@@ -38,8 +38,7 @@ body {
 
 .connectionBlock button{
     width: 30%;
-    align-self: flex-end;
-    margin-right: 31px;
+    align-self: center;
     padding: 10px;
     border: 1px solid #11ab67;
     border-radius: 20px;
