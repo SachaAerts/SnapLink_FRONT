@@ -1,0 +1,68 @@
+html {
+    background-color: #17181d;
+    height: 100%;
+    width: 100%;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* Connection page */
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.connectionBlock {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #7767ea;
+    border-radius: 10px;
+    width: 30%;
+    height: 500px;
+}
+
+.connectionBlock h1{
+    color: #7767ea;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.connectionBlock button{
+    width: 30%;
+    align-self: flex-end;
+    margin-right: 31px;
+    padding: 10px;
+    border: 1px solid #11ab67;
+    border-radius: 20px;
+    background-color: #11ab67;
+    color: #f0f0f0;
+}
+
+.elementForm{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.elementForm label{
+    color: #f0f0f0;
+    font-size: 23px;
+}
+
+.elementForm input{
+    border: 1px solid #7767ea;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px 0 10px 5px;
+    outline: none;
+    color: #f0f0f0;
+}
